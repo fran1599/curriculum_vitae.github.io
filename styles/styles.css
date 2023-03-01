@@ -1,11 +1,11 @@
 /* Estilos para la barra de navegación */
 
-:root {
+/* :root {
     --color-primary: #161122;
     --color-secondary: #2d3748;
     --color-tertiary: #4a5568;
     --color-text: #fff;
-  }
+  } */
   
   .inicio-img {
     text-align: center;
@@ -37,8 +37,10 @@
   section {
     width: 100%;
     padding: 80px 0 80px;
-    background-color: var(--color-primary);
-  color: var(--color-text);
+    /* background-color: var(--color-primary);
+    color: var(--color-text); */
+    background-color: #161122;
+    color: #fff;
   }
   
   section h2 {
