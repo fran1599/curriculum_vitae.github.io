@@ -6,77 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum</title>
     <link rel="shortcut icon" href="img/bullseye.svg" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Styles/styles.css">
 </head>
-<body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5 py-2 my-0 sticky" id="navbar" >
+<body >
 
-      <a class="navbar-brand" href=""><img src="img/bullseye.svg" alt="Logo" class="logo "></a>
-     
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse barra-navegacion " id="navbarSupportedContent" z>
-        <ul class="navbar-nav fw-bold " >
-           
-          <li class="nav-item align-self-center hover">
-            <a class="nav-link text-light" href="#">Formación</a>
-          </li> 
-          <li class="nav-item align-self-center hover">
-            <a class="nav-link text-light" href="/">Experiencia</a>
-          </li>
-          <li class="nav-item align-self-center hover">
-            <a class="nav-link text-light" href="/">Contacto</a>
-          </li> 
-         
-        </ul>
-      
-    </div> 
-  </nav>
-
-  <h1 class="text-light"><strong>Franco Jesus Fariña</strong></h1>
-
-
-<section class="text-light">
-  <h4>Sobre mi</h4> 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-</section>
-
-  <br><br>
-
-  <section class="text-light">
-    <h4>Formación</h4> 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-  </section>
-
-  <br><br>
-
-  <section class="text-light">
-    <h4>Experiencia</h4>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-  </section>
-
-  <br><br>
-
-  <section class="text-light">
-    <h4>Contacto</h4>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-  </section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#inicio">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certificaciones">Certificaciones</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
 
+        <section id="inicio">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-5 col-md-10">
+                    <div class="inicio-img">
+                      <img src="img/foto_perfil.jpg" alt="Foto de Juan Pérez">
+                    </div>
+                  </div>
+                <div class="col-lg-6 col-md-12">
+                  <div class="inicio-text pt-4">
+                    <h2>¡Hola! Soy Franco Jesus Fariña</h2>
+                    <p>Desarrollador web con experiencia en HTML, CSS y JavaScript. <br><br> He trabajado en el diseño y desarrollo de bases de datos, tanto para empresas privadas, como para el estado. <br><br> Me considero una persona sumamente meticulosa y curiosa, me gustan las tareas desafiantes y aprender de cada proceso continuamente.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+            
+            <section id="experiencia">
+                <div class="container">
+                    <h2>Experiencia Laboral</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Secretaría de Prevención y Asistencia de las Adicciones - Ministerio
+                                de Salud</h3>
+                            <h4>Analista de datos</h4>
+                            <p>Noviembre 2022 - Actualidad</p>
+                            <ul>
+                                <li>Diseño, armado y mantenimiento de tableros de métricas.</li>
+                                <li>Desarrollo de procesos de medición.</li>
+                                <li>Diseño e implementación de automatizaciones de procesos.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h3 class="pb-4">Zenrise</h3>
+                            <h4 class="pt-2">Customer Success Manager</h4>
+                            <p>Julio 2021 - Diciembre 2022</p>
+                            <ul>
+                                <li>Atención y soporte técnico enfocado en el éxito comercial del cliente y en la mejora y optimización de los productos.</li>
+                                <li>Desarrollo de procesos y modelos de gestión y recolección de datos, que se informan en diferentes reportes. </li>
+                                <li>Sugerencia y acompañamiento de mejoras y actualizaciones, en base al análisis de los datos obtenidos.</li>
+                            </ul>
+                        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="certificaciones">
+                <div class="container">
+                    <h2>Certificaciones</h2>
+                    <ul>
+                        <li>Registered Product Owner™</li>
+                        <li>Data analytics</li>
+                        <li>Registered Scrum Master™</li>
+                        <li>POWER BI</li>
+                        <li>Desarrollo Web</li>
+                    </ul>
+                </div>
+            </section>
+        
+            <section id="habilidades">
+                <div class="container">
+                    <h2>Habilidades</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Trabajo y configuración de CRMs</li>
+                                <li>Workbench</li>
+                                <li>Git / GitHub</li>
+                                <li>Visual Studio Code</li>
+                                <li>Pack Microsoft Office</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Trello, Jira, Asana, Click Up, Hubspot, Airtable</li>
+                                <li>Nuendo, Cubase, ProTools</li>
+                                <li>Pack Adobe Creative</li>
+                                <li>Web Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <section id="contacto">
+                <div class="container">
+                    <h2>Contacto</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Mail: francojesusfari@gmail.com</li>
+                                <li>Celular: +549 3385 46 4604</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <footer class="bg-dark text-light text-center py-3">
+                <div class="container">
+                    <p>Derechos de autor © 2023 | Franco Jesus Fariña</p>
+                    <p><a href="https://github.com/fran1599/">GitHub</a></p>
+                </div>
+            </footer>
 </body>
-<footer>
-
-
-</footer>
 </html>
